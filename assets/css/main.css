@@ -410,6 +410,7 @@ header span::after {
   letter-spacing: 1px;
   line-height: 20px;
   margin: 20px 80px 0 32px;
+  color: white;
 }
 .main-timeline .timeline:nth-child(even){
   float: right;
@@ -570,4 +571,56 @@ figure:hover+span {
   /*height: 150px;*/
   width: 100px;
   border-radius: 50%;
+}
+
+.read_more{
+  height: 50px;
+  width: 100px;
+}
+/* blogs */
+.like_blog{
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  height: 28px;
+  width: 28px;
+  text-align: center;
+  padding: 5px;
+}
+.time_blog{
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  height: 28px;
+  width: 28px;
+  text-align: center;
+  padding: 6px;
+}
+.comment_blog{
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  height: 28px;
+  width: 28px;
+  text-align: center;
+  padding: 6px;
+}
+.input_commment:focus{
+  border: 2px solid black;
+  box-shadow: none;
+}
+
+.load_more_blog{
+  height: 46px;
+  width: 100%;
+  background-color: #DC3545;
+  color: white;
+  border-radius: 11px;
+  padding: 5px;
+  margin: 16px;
+  cursor: pointer;
+}
+.load_more_blog a{
+  color: white;
+    text-decoration: none;
 }

@@ -91,3 +91,5 @@ $(document).ready(function() {
     $(this).addClass("active");
     
     });
+
+    // read more

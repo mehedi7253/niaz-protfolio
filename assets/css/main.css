@@ -624,3 +624,41 @@ figure:hover+span {
   color: white;
     text-decoration: none;
 }
+/*contact*/
+.contact{
+    background-color: #474D5D;
+}
+.house_address{
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 19px;
+    padding-bottom: 14px;
+    text-align: center;
+    padding-top: 10px;
+}
+.input_filed{
+    font-family: "Harlow Solid Italic";
+    color: #585F73;
+}
+.btn_msg{
+    font-family: 'Open Sans', sans-serif;
+}
+.contact{
+  height: auto;
+  background-image: url("../../images/clients.jpg");
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.contact-page{
+  height: auto;
+  background-image: url("../../images/contact-back.jpg");
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.contact-title{
+  border-bottom: 2px dotted white;
+
+}
